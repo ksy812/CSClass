@@ -13,6 +13,16 @@ namespace CSClass3205
             Car car = new Car();
             car.SetInTime();
             car.SetOutTime();
+
+            Random random = new Random();
+            //random.Next();
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+            Console.WriteLine(random.Next(10, 100));
+
+            Console.WriteLine(random.NextDouble() * 10);
         }
     }
 }
