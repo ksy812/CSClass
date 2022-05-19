@@ -10,7 +10,9 @@ namespace CSClass3205
     {
         static void Main(string[] args)
         {
-            
+            Car car = new Car();
+            car.SetInTime();
+            car.SetOutTime();
         }
     }
 }
