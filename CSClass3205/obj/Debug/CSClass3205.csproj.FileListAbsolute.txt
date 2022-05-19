@@ -1,0 +1,8 @@
+C:\Users\KimSoYeon\source\repos\CSClass3205\CSClass3205\bin\Debug\CSClass3205.exe.config
+C:\Users\KimSoYeon\source\repos\CSClass3205\CSClass3205\bin\Debug\CSClass3205.exe
+C:\Users\KimSoYeon\source\repos\CSClass3205\CSClass3205\bin\Debug\CSClass3205.pdb
+C:\Users\KimSoYeon\source\repos\CSClass3205\CSClass3205\obj\Debug\CSClass3205.csproj.AssemblyReference.cache
+C:\Users\KimSoYeon\source\repos\CSClass3205\CSClass3205\obj\Debug\CSClass3205.csproj.SuggestedBindingRedirects.cache
+C:\Users\KimSoYeon\source\repos\CSClass3205\CSClass3205\obj\Debug\CSClass3205.csproj.CoreCompileInputs.cache
+C:\Users\KimSoYeon\source\repos\CSClass3205\CSClass3205\obj\Debug\CSClass3205.exe
+C:\Users\KimSoYeon\source\repos\CSClass3205\CSClass3205\obj\Debug\CSClass3205.pdb
