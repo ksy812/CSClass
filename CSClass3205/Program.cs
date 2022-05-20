@@ -23,6 +23,20 @@ namespace CSClass3205
             Console.WriteLine(random.Next(10, 100));
 
             Console.WriteLine(random.NextDouble() * 10);
+
+
+            /*List<int> list = new List<int>();
+            list.Add(1);
+            list.Add(10);
+            list.Add(100);
+            list.Add(11);*/
+            List<int> list = new List<int>() { 52, 273, 32, 24};
+            list.Remove(52);
+
+            foreach (var item in list)
+            {
+                Console.WriteLine("Count: " + list.Count + "\titem: " + item);
+            }
         }
     }
 }
