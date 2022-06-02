@@ -12,9 +12,9 @@ namespace CSClass3205
             Console.WriteLine("Sample() 정적 생성자 호출");
         }
 
-        public Sample()
+        ~Sample()
         {
-            Console.WriteLine("Sample() 생성자 호출");
+            Console.WriteLine("Sample 객체 소멸자 호출");
         }
     }
 }
