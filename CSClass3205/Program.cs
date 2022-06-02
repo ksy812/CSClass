@@ -122,6 +122,20 @@ namespace CSClass3205
             Console.WriteLine(Method.Abs(-100));
             Console.WriteLine(Method.Abs(100));
             //Console.WriteLine(method.Abs(100)); //java에서는 가능한 문법
+
+
+            //Method Overloading
+            //int
+            Console.WriteLine(MyMath.Abs(52));
+            Console.WriteLine(MyMath.Abs(-52));
+
+            //double
+            Console.WriteLine(MyMath.Abs(52.273));
+            Console.WriteLine(MyMath.Abs(-52.273));
+
+            //long
+            Console.WriteLine(MyMath.Abs(2223456789L));
+            Console.WriteLine(MyMath.Abs(-2223456789L));
         }
     }
 }
