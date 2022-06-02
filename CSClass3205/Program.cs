@@ -136,6 +136,27 @@ namespace CSClass3205
             //long
             Console.WriteLine(MyMath.Abs(2223456789L));
             Console.WriteLine(MyMath.Abs(-2223456789L));
+
+
+            //static 변수
+            Product product1 = new Product("감자", 3000);
+            Product product2 = new Product("고구마", 5000);
+            Console.WriteLine(Product.counter + "개 생성되었습니다.");
+
+            //static 생성자
+/*            
+            Console.WriteLine("첫번째 위치");
+            Console.WriteLine(Sample.value); //여기서 생성자 호출
+            Console.WriteLine("두번째 위치");
+            Sample sample = new Sample();
+            Console.WriteLine("세번째 위치");
+*/
+            Console.WriteLine("첫번째 위치");
+            Sample sample = new Sample();  //여기서 생성자 호출
+            Console.WriteLine("두번째 위치");
+            Console.WriteLine(Sample.value);
+            Console.WriteLine("세번째 위치");
+
         }
     }
 }
