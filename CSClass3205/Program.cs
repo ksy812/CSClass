@@ -119,7 +119,9 @@ namespace CSClass3205
             Console.WriteLine(method.Multi(52.1, 273));
             Console.WriteLine(method.Sum(1, 100));
             Console.WriteLine(method.Multiply(1, 10));
-
+            Console.WriteLine(Method.Abs(-100));
+            Console.WriteLine(Method.Abs(100));
+            //Console.WriteLine(method.Abs(100)); //java에서는 가능한 문법
         }
     }
 }
