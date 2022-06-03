@@ -170,6 +170,13 @@ namespace CSClass3205
             Box box = new Box(10, 10);
             box.Width = -10;
             Console.WriteLine("box 면적은 : " + box.Area);
+
+            //재귀함수
+            Console.WriteLine(Fibonacci.Get(1));
+            Console.WriteLine(Fibonacci.Get(10));
+            Console.WriteLine(Fibonacci.Get(100));
+            Console.WriteLine(Fibonacci.Get(1000));
+
         }
     }
 }
