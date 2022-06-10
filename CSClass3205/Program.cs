@@ -111,7 +111,7 @@ namespace CSClass3205
 
             foreach (var item in students)
             {
-                
+
                 Console.WriteLine(item);
             }
 
@@ -144,13 +144,13 @@ namespace CSClass3205
             Console.WriteLine(Product.counter + "개 생성되었습니다.");
 
             //static 생성자
-/*            
-            Console.WriteLine("첫번째 위치");
-            Console.WriteLine(Sample.value); //여기서 생성자 호출
-            Console.WriteLine("두번째 위치");
-            Sample sample = new Sample();
-            Console.WriteLine("세번째 위치");
-*/
+            /*            
+                        Console.WriteLine("첫번째 위치");
+                        Console.WriteLine(Sample.value); //여기서 생성자 호출
+                        Console.WriteLine("두번째 위치");
+                        Sample sample = new Sample();
+                        Console.WriteLine("세번째 위치");
+            */
             Console.WriteLine("첫번째 위치");
             Sample sample = new Sample();  //여기서 생성자 호출
             Console.WriteLine("두번째 위치");
@@ -179,21 +179,21 @@ namespace CSClass3205
 
 
             //23-1. 상속과 다형성 소개
-            List<Dog> Dogs = new List<Dog>() { new Dog(), new Dog() , new Dog()};
-            List<Cat> Cats = new List<Cat>() { new Cat(), new Cat(), new Cat() };
+            //List<Dog> Dogs = new List<Dog>() { new Dog(), new Dog() , new Dog()};
+            //List<Cat> Cats = new List<Cat>() { new Cat(), new Cat(), new Cat() };
+            List<Animal> animals = new List<Animal>()
+            {
+                new Dog(), new Dog(), new Dog(),
+                new Cat(), new Cat(), new Cat()
+            };
 
-            foreach(var item in Dogs)
+            foreach (var item in animals)
             {
                 item.Eat();
                 item.Sleep();
-                item.Bark();
+                ((Dog)item).Bark();
             }
-            foreach (var item in Cats)
-            {
-                item.Eat();
-                item.Sleep();
-                item.Meow();
-            }
+
         }
     }
 }
