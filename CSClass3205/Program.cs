@@ -191,7 +191,18 @@ namespace CSClass3205
             {
                 item.Eat();
                 item.Sleep();
-                ((Dog)item).Bark();
+                //((Dog)item).Bark();
+
+                if (item is Dog)
+                {
+                    //item.Bark();
+                    ((Dog)item).Bark();
+                }else if(item is Cat)
+                {
+                    Cat cat = (Cat)item;
+                    cat.Meow();
+                }
+                
             }
 
         }
