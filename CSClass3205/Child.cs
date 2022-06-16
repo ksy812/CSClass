@@ -11,6 +11,7 @@ namespace CSClass3205
             Console.WriteLine("자식 메서드");
         }
 
+        //public sealed override void Method2()
         public override void Method2()
         {
             Console.WriteLine("자식 메서드");
@@ -30,5 +31,11 @@ namespace CSClass3205
         {
             Child.counter++;
         }
+/*
+        public override void Method3()
+        {
+            Console.WriteLine("추상 메서드 구현");
+        }
+*/
     }
 }

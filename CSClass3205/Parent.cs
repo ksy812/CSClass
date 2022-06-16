@@ -2,10 +2,15 @@
 
 namespace CSClass3205
 {
+    //public sealed class Parent
+    //public abstract class Parent
     public class Parent
     {
         public static int counter = 0;
         public int variable = 23;
+
+
+        //public abstract void Method3();
 
         public void Method()
         {
