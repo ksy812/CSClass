@@ -172,11 +172,12 @@ namespace CSClass3205
             Console.WriteLine("box 면적은 : " + box.Area);
 
             //재귀함수
+            /*
             Console.WriteLine(Fibonacci.Get(1));
             Console.WriteLine(Fibonacci.Get(10));
             Console.WriteLine(Fibonacci.Get(100));
             Console.WriteLine(Fibonacci.Get(1000));
-
+            */
 
             //23-1. 상속과 다형성 소개
             //List<Dog> Dogs = new List<Dog>() { new Dog(), new Dog() , new Dog()};
@@ -201,6 +202,17 @@ namespace CSClass3205
                                 
             }
 
+            //23-6. 상속의 생성자
+            Child childA = new Child();
+            Child childB = new Child("string");
+
+            Parent parent = new Parent();
+            Child child = new Child();
+            Console.WriteLine("p counter: " + Parent.counter + " / c counter" + Child.counter);
+            parent.CountParent();
+            Console.WriteLine("p counter: " + Parent.counter + " / c counter" + Child.counter);
+            child.CountParent();
+            Console.WriteLine("p counter: " + Parent.counter + " / c counter" + Child.counter);
         }
     }
 }
