@@ -8,6 +8,7 @@ namespace CSClass3205
 {
     internal class Program
     {
+        static int number;
         static void Main(string[] args)
         {
             Car car = new Car();
@@ -213,6 +214,18 @@ namespace CSClass3205
             Console.WriteLine("p counter: " + Parent.counter + " / c counter" + Child.counter);
             child.CountParent();
             Console.WriteLine("p counter: " + Parent.counter + " / c counter" + Child.counter);
+
+
+            //섀도잉
+            int number = 20; //위에 Program - static int number 있음
+            Console.WriteLine(number);
+
+            //하이딩
+            Child c = new Child();
+            Console.WriteLine("child.variable: " + c.variable);
+            Console.WriteLine("(Parent)child).variable: " + ((Parent)c).variable);
+            c.Method();
+            ((Parent)c).Method();
         }
     }
 }

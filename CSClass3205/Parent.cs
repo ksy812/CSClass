@@ -5,6 +5,12 @@ namespace CSClass3205
     public class Parent
     {
         public static int counter = 0;
+        public int variable = 23;
+
+        public void Method()
+        {
+            Console.WriteLine("부모 메서드");
+        }
 
         public void CountParent()
         {
