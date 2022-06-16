@@ -4,16 +4,17 @@ namespace CSClass3205
 {
     class Dog : Animal
     {
-        public String Color { get; set; }
-        public void Eat()
-        {
-            Console.WriteLine("쩝쩝 먹겠습니다.");
-        }
+        public string Color { get; set; }
 
         public void Bark()
         {
-            base.Eat();
+            //base.Eat();
             Console.WriteLine("왈왈 짓습니다.");
+        }
+        
+        public override void Eat()
+        {
+            Console.WriteLine("강아지 사료를 먹습니다.");
         }
     }
 }

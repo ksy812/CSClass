@@ -226,6 +226,15 @@ namespace CSClass3205
             Console.WriteLine("(Parent)child).variable: " + ((Parent)c).variable);
             c.Method();
             ((Parent)c).Method();
+
+            //오버라이딩
+            c.Method2();
+            ((Parent)c).Method2();
+
+            foreach(var item in animals)
+            {
+                item.Eat();
+            }
         }
     }
 }

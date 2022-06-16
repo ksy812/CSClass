@@ -6,7 +6,12 @@ namespace CSClass3205
     {
         public new string variable = "hiding";
 
-        public void Method()
+        public new void Method()
+        {
+            Console.WriteLine("자식 메서드");
+        }
+
+        public override void Method2()
         {
             Console.WriteLine("자식 메서드");
         }

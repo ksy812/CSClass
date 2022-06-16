@@ -12,6 +12,11 @@ namespace CSClass3205
             Console.WriteLine("부모 메서드");
         }
 
+        public virtual void Method2()
+        {
+            Console.WriteLine("부모 메서드");
+        }
+
         public void CountParent()
         {
             Parent.counter++;
